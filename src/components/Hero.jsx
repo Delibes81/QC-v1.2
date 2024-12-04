@@ -2,6 +2,7 @@ import React from 'react';
 
 const Hero = () => {
   return (
+    <section id="home" className="py-20 bg-white">
     <div className="relative h-screen">
       <video
         autoPlay
@@ -22,6 +23,7 @@ const Hero = () => {
         </div>
       </div>
     </div>
+  </section>
   );
 };
 
